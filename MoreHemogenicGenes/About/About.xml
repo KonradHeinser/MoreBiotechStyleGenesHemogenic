@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>More Hemogenic Genes</name>
+  <author>alite</author>
+  <packageId>MoreBiotechStyleGenes.Hemogenic</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+
+  <description>
+This mod adds 16 more hemogenic genes. More specifically, it adds consuming genes provides the individual with additional hemogenic loss of 3, 4, 5, 6, 10, 12, and 14, and producing genes that provide regeneration of 2, 3, 4, 5, 6, 8, 10, 12, and 14. If for some reason you aren't seeing a homegenic gene take effect, try saving you game, then reloading that save. There is a strange issue with vanilla Rimworld where the Hemogen loss only updates when the mapis loaded or the basic Hemogenic gene is gained.
+
+Included in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes - All in One[/url]
+
+I am aware that [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2881021950]More Hemogen Genes[/url] exists, but I feel like that mod is not balanced with other genes in the slightest. Excluding the archite gene, taking all hemogenic genes nets you over 10 Hemogenic regeneration every day, and you get rewarded with +8 Metabolic efficiency. While I did love using that mod for a while, I found that I was relying on it for its unbalanced nature, but now everyone has a balanced version here. Now if you want to make a blood god, I 100% recommend [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2881021950]More Hemogen Genes[/url], because that is really entertaining.
+
+[url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+
+[url=https://github.com/KonradHeinser/MoreBiotechStyleGenesHemogenic][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+  </description>
+</ModMetaData>
+
