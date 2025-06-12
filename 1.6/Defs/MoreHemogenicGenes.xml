@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>HemogenDrainHyper</defName>
+    <label>hyper hemogen drain</label>
+    <labelShortAdj>draining</labelShortAdj>
+    <description>Carriers lose an additional 14 hemogen per day from biological entropy.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_HemogenDrain</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>0.14</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-0.1</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>9</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenDrainExtreme</defName>
+    <label>extreme hemogen drain</label>
+    <labelShortAdj>draining</labelShortAdj>
+    <description>Carriers lose an additional 12 hemogen per day from biological entropy.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_HemogenDrain</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>0.12</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-0.3</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>8</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenDrainMajor</defName>
+    <label>major hemogen drain</label>
+    <labelShortAdj>draining</labelShortAdj>
+    <description>Carriers lose an additional 10 hemogen per day from biological entropy.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_HemogenDrain</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>0.1</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-0.5</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>7</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenDrainNotable</defName>
+    <label>notable hemogen drain</label>
+    <labelShortAdj>draining</labelShortAdj>
+    <description>Carriers lose an additional 6 hemogen per day from biological entropy.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_HemogenDrain</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>0.06</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-1.3</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>5</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenDrainSomewhatMinor</defName>
+    <label>somewhat minor hemogen drain</label>
+    <labelShortAdj>draining</labelShortAdj>
+    <description>Carriers lose an additional 5 hemogen per day from biological entropy.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_Hemogenic</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>0.05</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-1.5</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>4</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenDrainMinor</defName>
+    <label>minor hemogen drain</label>
+    <labelShortAdj>draining</labelShortAdj>
+    <description>Carriers lose an additional 4 hemogen per day from biological entropy.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_Hemogenic</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>0.04</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-1.7</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenDrainVeryMinor</defName>
+    <label>very minor hemogen drain</label>
+    <labelShortAdj>draining</labelShortAdj>
+    <description>Carriers lose an additional 3 hemogen per day from biological entropy.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_Hemogenic</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>0.03</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-1.9</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>2</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoveryExtremelyMinor</defName>
+    <label>very minor hemogen recovery</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 2 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRecovery</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.02</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.1</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoveryVeryMinor</defName>
+    <label>minor hemogen recovery</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 3 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRecovery</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.03</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.2</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoveryMinor</defName>
+    <label>hemogen recovery</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 4 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRecovery</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.04</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.3</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-3</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoverySomewhatMinor</defName>
+    <label>major hemogen recovery</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 5 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRecovery</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.05</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.4</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-4</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoveryNotable</defName>
+    <label>minor hemogen regeneration</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 6 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRejuvenation</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.06</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.5</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-5</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecovery</defName>
+    <label>hemogen regeneration</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 8 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRejuvenation</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.08</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.6</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-6</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoveryMajor</defName>
+    <label>major hemogen regeneration</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 10 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRejuvenation</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.1</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.7</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-7</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoveryExtreme</defName>
+    <label>super hemogen regeneration</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 12 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRejuvenation</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.12</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.8</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-8</biostatMet>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HemogenRecoveryHyper</defName>
+    <label>hemogen hyper regeneration</label>
+    <labelShortAdj>rejuvenating</labelShortAdj>
+    <description>Carriers recover 14 hemogen per day from biological rejuvenation.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>MBSG/Gene_HemogenicRejuvenation</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.14</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2.9</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-9</biostatMet>
+  </GeneDef>
+</Defs>
